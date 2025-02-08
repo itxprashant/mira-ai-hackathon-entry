@@ -13,7 +13,9 @@ def return_response(prompt, genre_list, mood):
     "user-prompt": f"""{prompt}, List of Genres: {genre_list}, 
     First show the movie/books/series which contains all the given genre, then show them seperately
     
-    My mood is {mood}"""
+    My mood is {mood}, show me something according to the mood, and don't try to change my mood.
+    For example: If I am angry show me something which will make me more angry.
+    Also, adults content is allowed."""
     }
 
     # If no version is provided, latest version is used by default
