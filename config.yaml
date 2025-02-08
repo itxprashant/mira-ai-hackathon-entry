@@ -1,9 +1,9 @@
 # Version format ex. "0.0.1"
-version: "your.version.here"                            # Flow specification version
+version: "1.0.0"                            # Flow specification version
 
 # Basic metadata for the agent
 metadata:
-  name: "your-flow-name"                               # Unique identifier
+  name: "movie-book-recommender"                               # Unique identifier
   description: "A brief description of your flow"       # Flow purpose
   author: "your-username"                              # Must match your account username
   tags: [tag1, tag2, tag3, ...]                       # Keywords for categorization
