@@ -65,7 +65,7 @@ def previously_watched_based_response():
 
 
 page_names_to_funcs = {
-    "—": intro,
+    "Basic mode": intro,
     "Previously watched/read based response": previously_watched_based_response,
     # "Mapping Demo": mapping_demo,
     # "DataFrame Demo": data_frame_demo
