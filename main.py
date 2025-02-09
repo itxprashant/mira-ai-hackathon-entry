@@ -53,7 +53,8 @@ def return_response_based_on_incident(prompt):
     input_data = {
     "user-prompt": f""" 
     The following incident happened with me, can you recommend me some movie/book in which the same incident happened:
-    {prompt}"""
+    {prompt}
+    (Don't try to change my mood or heal it, just recommend me the movie/book in which the same incident happened)"""
     }
 
     if version:
