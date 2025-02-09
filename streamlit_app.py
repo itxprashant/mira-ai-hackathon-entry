@@ -45,7 +45,8 @@ def intro():
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
-    if prompt := st.chat_input("Describe more... (optional)"):
+    prompt = st.text_input("Describe more... (optional)")
+    if st.button("Submit"):
 
         # Store and display the current prompt.
         st.session_state.messages.append({"role": "user", "content": prompt})
@@ -67,7 +68,6 @@ def intro():
 
 def previously_watched_based_response():
         st.title("Previously watched/read based response")
-        st.markdown("### Movies/Books/Web Series I've already watched")
         already_watched = st.text_area("""Enter the movies/books/web series you've already watched similar to 
                                        which you want the recommendation""", height=100)
 
