@@ -29,7 +29,7 @@ def intro():
             selected_genres[i] = st.checkbox(genre, value=False)
     
 
-    language_list = ["English", "Hindi", "Korean", "Japanese", "Frenchk", "Spanish", "Others"]
+    language_list = ["English", "Hindi", "Korean", "Japanese", "French", "Spanish", "Others"]
     languages = [None for _ in language_list]
     st.markdown("## Language")
     lang_cols = st.columns(4)
